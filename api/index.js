@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
-const bodyPasers = require('body-parser')
+const bodyParser = require('body-parser')
 const config = require('config')
 
-app.use(bodyPasers.json())
+app.use(bodyParser.json())
 
 const roteador = require('./rotas/fornecedores')
 app.use('/api/fornecedores', roteador)

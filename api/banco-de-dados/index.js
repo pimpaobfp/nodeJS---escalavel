@@ -12,4 +12,3 @@ const instancia = new Sequelize(
 )
 
 module.exports = instancia
-
